@@ -8,10 +8,6 @@ This is a simple currency converter web application built using React. Users can
 - **Currency Swap:** Quickly swap the source and target currencies.
 - **Background Image:** The app features a dynamic background image to enhance the user interface.
 
-## Screenshots
-
-![Currency Converter App](./screenshots/app_screenshot.png)
-
 ## Installation
 
 1. Clone the repository:
@@ -62,6 +58,3 @@ This is a simple currency converter web application built using React. Users can
 - Background image by [Pexels](https://www.pexels.com/photo/259132/pexels-photo-259132/)
 - Currency exchange rates provided by [useCurrencyInfo](./hooks/useCurrencyInfo.js)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
