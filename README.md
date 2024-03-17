@@ -3,7 +3,7 @@
 This is a React application that allows users to convert currency between different currencies.
 
 ### Screenshots
-![Home Page](Image link)
+![Home Page](./public/currencyConvert.png)
 
 
 ### Features
