@@ -1,60 +1,50 @@
-# Currency Converter App
+## React Currency Converter App
 
-This is a simple currency converter web application built using React. Users can input an amount, select the source currency (From), choose the target currency (To), and then convert the amount accordingly. Additionally, users can swap the source and target currencies with a single click.
+This is a React application that allows users to convert currency between different currencies.
 
-## Features
+### Screenshots
+![Home Page](Image link)
 
-- **Currency Conversion:** Convert an input amount from one currency to another.
-- **Currency Swap:** Quickly swap the source and target currencies.
-- **Background Image:** The app features a dynamic background image to enhance the user interface.
 
-## Installation
+### Features
 
-1. Clone the repository:
+* Convert between various currencies using exchange rates.
+* Swap between "From" and "To" currencies with a single click.
+* User-friendly interface with clear labels and input fields.
 
-   ```bash
-   git clone https://github.com/your-username/currency-converter-app.git
-   ```
+### Installation
 
-2. Navigate to the project directory:
+1. Clone this repository.
+2. Install dependencies:
 
-   ```bash
-   cd currency-converter-app
-   ```
+```bash
+npm install
+```
 
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-## Usage
+### Usage
 
 1. Start the development server:
 
-   ```bash
-   npm start
-   ```
+```bash
+npm start
+```
 
-2. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the app.
+2. Open http://localhost:3000 in your browser.
 
-## How to Use
+### Explanation
 
-1. Enter the amount you want to convert in the "From" input box.
-2. Select the source currency (From) from the dropdown list.
-3. Click the "Swap" button to swap the source and target currencies.
-4. The "To" input box displays the converted amount in the selected target currency.
-5. Click the "Convert" button to perform the currency conversion.
+This application utilizes React components and hooks to achieve its functionality. Here's a breakdown of the key aspects:
 
-## Technologies Used
+* **useState Hook:** Manages the state of various elements like the amount, currencies, and converted amount.
+* **useCurrencyInfo Hook:** Fetches and stores exchange rate data for different currencies.
+* **Inputbox Component:** A reusable component for handling currency selection and amount input.
+* **convert Function:** Calculates the converted amount based on the selected currencies and exchange rate.
+* **swap Function:** Swaps the "From" and "To" currencies and their corresponding values.
 
-- React
-- JavaScript
-- Tailwind CSS
-- API (useCurrencyInfo hook for fetching currency exchange rates)
+### Contributing
 
-## Acknowledgments
+We welcome contributions to this project! Feel free to fork the repository and submit pull requests with your improvements.
 
-- Background image by [Pexels](https://www.pexels.com/photo/259132/pexels-photo-259132/)
-- Currency exchange rates provided by [useCurrencyInfo](./hooks/useCurrencyInfo.js)
+### License
 
+This project is licensed under the MIT License. See the LICENSE file for details.
